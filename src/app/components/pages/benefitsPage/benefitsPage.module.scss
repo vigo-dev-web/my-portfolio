@@ -1,0 +1,14 @@
+.wrapper {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   margin-top: 2.9rem;
+   gap: 3.3rem 1rem;
+}
+
+
+@media (max-width: 625px) {
+   .wrapper {
+      gap: 2rem 1rem;
+   }
+}

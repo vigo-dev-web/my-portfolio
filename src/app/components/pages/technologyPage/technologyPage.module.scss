@@ -1,0 +1,29 @@
+.sliderContainer {
+   padding: 4rem 2rem 1.8rem;
+}
+
+:global(.swiper-button-next) {
+   color: #2999FC;
+   --swiper-navigation-size: 2.5rem;
+   --swiper-navigation-sides-offset: 0;
+}
+
+:global(.swiper-button-prev) {
+   color: #2999FC;
+   --swiper-navigation-size: 2.5rem;
+   --swiper-navigation-sides-offset: 0;
+}
+
+:global(.swiper-pagination-bullet) {
+   background-color: #2999FC;
+   width: 1rem;
+   height: 1rem;
+}
+
+:global(.swiper-pagination-bullets) {
+   --swiper-pagination-bottom: 0;
+}
+
+.cardContainer {
+   margin-top: 2rem;
+}

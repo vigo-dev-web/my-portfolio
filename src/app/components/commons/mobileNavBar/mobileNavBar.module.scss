@@ -1,0 +1,30 @@
+.close {
+   overflow: hidden;
+}
+
+.container {
+   max-width: 1220px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0.5rem 1rem;
+   background-color: #f9f7f7;
+   position: sticky;
+   top: 0;
+   z-index: 10;
+   box-shadow: 0 20px 40px #0000007e, 0 0 14px #0000007e;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.menu {
+   color: rgb(30, 11, 77);
+   cursor: pointer;
+}
+
+.phone {
+   color: rgb(30, 11, 77);
+}

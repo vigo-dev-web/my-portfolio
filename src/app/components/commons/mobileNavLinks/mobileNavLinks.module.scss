@@ -1,0 +1,29 @@
+.wrapper {
+   position: fixed;
+   height: 100vh;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: #fff;
+   z-index: 100;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   padding: 1rem 3rem 0;
+   gap: 2rem 0;
+   text-align: center;
+}
+
+.link {
+   color: rgb(30, 11, 77);
+   font-size: 1.7rem;
+   text-transform: uppercase;
+}
+
+.close {
+   color: rgb(30, 11, 77);
+   cursor: pointer;
+   position: relative;
+   left: 95%;
+}

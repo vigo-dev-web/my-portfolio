@@ -1,0 +1,22 @@
+.body {
+   background-color: rgb(41 153 252);
+   color: #fff;
+   transition: .4s ease-in-out;
+   text-wrap: nowrap;
+   padding: 0.5rem;
+   border-radius: 3px;
+   border: 3px solid transparent;
+   line-height: 1.15;
+
+   @media (any-hover: hover) {
+      &:hover {
+         background-color: #fff;
+         color: rgb(41 153 252);
+         transform: translateY(2px);
+         border: 3px solid rgb(41 153 252);
+      }
+   }
+   @media (max-width: 625px) {
+      padding: 0.2rem 0.3rem;
+   }
+}

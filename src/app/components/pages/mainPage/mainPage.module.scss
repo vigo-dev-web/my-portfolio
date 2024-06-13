@@ -1,0 +1,102 @@
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+   gap: 0 1rem;
+   align-items: center;
+   font-size: 1.13rem;
+
+   @media (max-width: 767px) {
+      font-size: 1rem;
+   }
+
+   @media (max-width: 625px) {
+      flex-direction: column;
+      font-size: 0.8rem;
+      gap: 1.8rem 0;
+   }
+}
+
+.content {
+   flex: 0 1 45%;
+
+   @media (max-width: 767px) {
+      flex: 0 2 35%;
+   }
+
+}
+
+.greetings {
+   font-size: 1.5rem;
+   margin-bottom: 1.3rem;
+
+   @media (max-width: 767px) {
+      font-size: 1.2rem;
+   }
+
+   @media (max-width: 625px) {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+   }
+
+}
+
+.title {
+   font-size: 3rem;
+   color: rgb(41 153 252);
+   margin-bottom: 2.2rem;
+
+   @media (max-width: 767px) {
+      font-size: 2.5rem;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+   }
+
+   @media (max-width: 625px) {
+      font-size: 2rem;
+      margin-bottom: 1.3rem;
+      line-height: 1;
+   }
+
+}
+
+.mainText {
+   margin-bottom: 1.6rem;
+
+   @media (max-width: 625px) {
+      margin-bottom: 1rem;
+   }
+}
+
+.callAction {
+   margin-bottom: 2rem;
+
+   @media (max-width: 625px) {
+      margin-bottom: 1.4rem;
+   }
+}
+
+.buttonBox {
+   display: flex;
+   gap: 0 1rem;
+
+   @media (max-width: 625px) {
+      justify-content: center;
+   }
+
+}
+
+.image {
+   height: 550px;
+   border-radius: 5px;
+   border-bottom-right-radius: 100px;
+   border-top-left-radius: 50px;
+
+   @media (max-width: 767px) {
+      max-height: 450px;
+      height: 100%;
+   }
+
+   @media (max-width: 625px) {
+      max-height: 280px;
+   }
+}
