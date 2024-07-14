@@ -6,15 +6,14 @@ import {
 	TsIcon,
 	SassIcon,
 	TailwindIcon,
-	PhotoshopIcon,
-	FigmaIcon,
 	ExpressIcon,
 	NodeIcon,
 	WebpackIcon,
 	GulpIcon,
 	HTMLIcon,
 	GitHubIcon,
-	ReduxIcon
+	ReduxIcon,
+	AIIcon
 } from '../../../../icons'
 
 const TechnologyCard = ({ technology }) => {
@@ -39,7 +38,6 @@ const TechnologyCard = ({ technology }) => {
 			return (
 				<>
 					<ReduxIcon size={38} />
-					{/* <TsIcon size={28} /> */}
 				</>
 			)
 		}
@@ -78,6 +76,13 @@ const TechnologyCard = ({ technology }) => {
 			return (
 				<>
 					<GitHubIcon size={40} />
+				</>
+			)
+		}
+		if (technology?.tech1.keyWord === 'AI') {
+			return (
+				<>
+					<AIIcon size={40} />
 				</>
 			)
 		}

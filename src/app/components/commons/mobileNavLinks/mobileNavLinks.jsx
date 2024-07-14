@@ -34,11 +34,11 @@ const MobileNavLinks = ({ onClick }) => {
 				</NavLink>
 			))}
 			<a
-				href='/assets/Igonin_Vasiliy_CV.pdf'
+				href='/assets/Игорин_Василий_CV.pdf'
 				onClick={handleClose}
 				className={styles.link}
 			>
-				{'Скачать резюме'}
+				{'Посмотреть резюме'}
 			</a>
 		</div>
 	)

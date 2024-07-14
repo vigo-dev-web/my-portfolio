@@ -5,7 +5,6 @@ import styles from './mainPage.module.scss'
 import MainButton from '../../ui/mainButton/mainButton'
 
 const MainPage = () => {
-	const myCV = 'Скачать резюме'
 	const createMessage = 'Написать мне'
 	return (
 		<>

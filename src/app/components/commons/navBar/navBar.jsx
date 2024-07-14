@@ -1,13 +1,11 @@
 import React from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import styles from './navBar.module.scss'
-import MainButton from '../../ui/mainButton/mainButton'
 import nav from '../../../mock/nav'
 import Logo from '../../ui/logo/logo'
 import ButtonLink from '../../ui/buttonLink/buttonLink';
 
 const NavBar = () => {
-	const createMessage = 'Написать мне'
 	const { pathname } = useLocation()
 	return (
 		<nav className={styles.container}>
@@ -27,7 +25,7 @@ const NavBar = () => {
 						</NavLink>
 					))}
 				</div>
-				<ButtonLink link={'/assets/Igonin_Vasiliy_CV.pdf'}>Скачать резюме</ButtonLink>
+				<ButtonLink link={'/assets/Игорин_Василий_CV.pdf'}>Посмотреть резюме</ButtonLink>
 			</div>
 		</nav>
 	)
