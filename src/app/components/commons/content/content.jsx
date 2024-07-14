@@ -13,7 +13,7 @@ const Content = () => {
 			<div className={styles.container}>
 				<Routes>
 					<Route
-						path=''
+						path='/'
 						element={<MainPage />}
 					/>
 					<Route
