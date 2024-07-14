@@ -37,7 +37,7 @@ const MainPage = () => {
 					</div>
 				</div>
 				<img
-					src='/assets/main-foto.jpg'
+					src='./assets/main-foto.jpg'
 					alt='Main'
 					className={styles.image}
 				/>
