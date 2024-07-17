@@ -6,6 +6,7 @@ import MainButton from '../../ui/mainButton/mainButton'
 
 const MainPage = () => {
 	const createMessage = 'Написать мне'
+
 	return (
 		<>
 			<div className={styles.wrapper}>
@@ -37,8 +38,8 @@ const MainPage = () => {
 					</div>
 				</div>
 				<img
-					src='./assets/main-foto.jpg'
-					alt='Main'
+					src='/my-portfolio/assets/main-foto.jpg'
+					alt='Main-foto'
 					className={styles.image}
 				/>
 			</div>

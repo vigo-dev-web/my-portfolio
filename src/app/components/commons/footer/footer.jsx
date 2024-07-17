@@ -11,6 +11,8 @@ const Footer = () => {
 						<a
 							className='h-5 w-5 hover:text-lightblue transition delay-180 duration-300 ease-in'
 							href={item.link}
+							target='_blank'
+							rel="noopener noreferrer"
 						>
 							{item.icon}
 						</a>

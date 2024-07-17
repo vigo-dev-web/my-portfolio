@@ -1,13 +1,9 @@
 import nav from '../../../mock/nav'
-import { NavLink, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import styles from './mobileNavLinks.module.scss'
 import { MdClose } from 'react-icons/md'
 
 const MobileNavLinks = ({ onClick }) => {
-	const { pathname } = useLocation()
-
-	console.log(pathname)
-	console.log(nav[0].path === pathname)
 
 	const handleClose = () => {
 		setTimeout(() => {
@@ -34,7 +30,7 @@ const MobileNavLinks = ({ onClick }) => {
 				</NavLink>
 			))}
 			<a
-				href='./assets/Igonin_Vasiliy_CV.pdf'
+				href='/my-portfolio/assets/Igonin_Vasiliy_CV.pdf'
 				onClick={handleClose}
 				className={styles.link}
 			>

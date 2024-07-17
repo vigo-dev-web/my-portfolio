@@ -3,7 +3,7 @@ import { NavLink, useLocation } from 'react-router-dom'
 import styles from './navBar.module.scss'
 import nav from '../../../mock/nav'
 import Logo from '../../ui/logo/logo'
-import ButtonLink from '../../ui/buttonLink/buttonLink';
+import ButtonLink from '../../ui/buttonLink/buttonLink'
 
 const NavBar = () => {
 	const { pathname } = useLocation()
@@ -25,7 +25,11 @@ const NavBar = () => {
 						</NavLink>
 					))}
 				</div>
-				<ButtonLink link={'./assets/Igonin_Vasiliy_CV.pdf'}>Посмотреть резюме</ButtonLink>
+				<ButtonLink
+					link={'/my-portfolio/assets/Igonin_Vasiliy_CV.pdf'}
+				>
+					Посмотреть резюме
+				</ButtonLink>
 			</div>
 		</nav>
 	)

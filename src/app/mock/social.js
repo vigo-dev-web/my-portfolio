@@ -1,5 +1,4 @@
-import { FaGithub, FaTwitter, FaWhatsapp, FaTelegramPlane } from 'react-icons/fa';
-// import SlSocialVkontakte from 'react-icons/sl';
+import { FaGithub, FaWhatsapp, FaTelegramPlane } from 'react-icons/fa';
 const socialLink = [
    {
       id: '00001',
@@ -14,13 +13,13 @@ const socialLink = [
    //    link: 'https://vk.com/',
    // },
    {
-      id: '00004',
+      id: '00002',
       name: 'whatsApp',
       icon: <FaWhatsapp fontSize="1.7rem" />,
       link: 'https://api.whatsapp.com/send?phone=79859374708',
    },
    {
-      id: '00005',
+      id: '00003',
       name: 'telegram',
       icon: <FaTelegramPlane fontSize="1.7rem" />,
       link: 'https://t.me/Vigonin83',

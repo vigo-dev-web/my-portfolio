@@ -31,7 +31,6 @@ const TechnologyPage = () => {
 					}}
 					pagination={{ el: '.swiper-pagination', clickable: true, dynamicBullets: true }}
 					onSlideChange={() => console.log('Cлайд изменился')}
-					// onSwiper={(swiper) => console.log(swiper)}
 					breakpoints={{
 						914: {
 							slidesPerView: 3,
@@ -43,10 +42,13 @@ const TechnologyPage = () => {
 						}
 					}}
 				>
-					{technologies.map((tech, index) => (
+					{technologies.map((tech) => (
 						<>
 							<SwiperSlide key={tech.id}>
-								<TechnologyCard technology={tech} key={tech.id}/>
+								<TechnologyCard
+									technology={tech}
+									// key={tech.id}
+								/>
 							</SwiperSlide>
 						</>
 					))}

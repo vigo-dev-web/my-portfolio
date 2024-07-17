@@ -3,9 +3,12 @@ import styles from './mainButton.module.scss'
 
 const MainButton = ({ content }) => {
 	return (
-		<button className={styles.body}>
+		<a
+			className={styles.body}
+			href='mailto: vigonin83@gmail.com'
+		>
 			{content}
-		</button>
+		</a>
 	)
 }
 

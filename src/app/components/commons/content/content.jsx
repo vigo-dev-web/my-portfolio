@@ -13,19 +13,19 @@ const Content = () => {
 			<div className={styles.container}>
 				<Routes>
 					<Route
-						path='/'
+						path={'/'}
 						element={<MainPage />}
 					/>
 					<Route
-						path='projects'
+						path={"/projects"}
 						element={<ProjectsPage />}
 					/>
 					<Route
-						path='technology'
+						path={"/technology"}
 						element={<TechnologyPage />}
 					/>
 					<Route
-						path='benefits'
+						path={"/benefits"}
 						element={<BenefitsPage />}
 					/>
 				</Routes>
