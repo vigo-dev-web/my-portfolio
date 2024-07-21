@@ -12,7 +12,9 @@
 .phone {
    text-align: center;
    line-height: 180%;
-
+   @media (max-width: 767px) {
+      display: none;
+   }
    @media (max-width: 625px) {
       font-size: 0.8rem;
    }

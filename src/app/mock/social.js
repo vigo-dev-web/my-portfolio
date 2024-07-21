@@ -1,4 +1,4 @@
-import { FaGithub, FaWhatsapp, FaTelegramPlane } from 'react-icons/fa';
+import { FaGithub, FaWhatsapp, FaTelegramPlane, FaRegEnvelope } from 'react-icons/fa';
 const socialLink = [
    {
       id: '00001',
@@ -15,14 +15,20 @@ const socialLink = [
    {
       id: '00002',
       name: 'whatsApp',
-      icon: <FaWhatsapp fontSize="1.7rem" />,
+      icon: <FaWhatsapp fontSize="1.85rem" />,
       link: 'https://api.whatsapp.com/send?phone=79859374708',
    },
    {
       id: '00003',
       name: 'telegram',
-      icon: <FaTelegramPlane fontSize="1.7rem" />,
+      icon: <FaTelegramPlane fontSize="1.9rem" />,
       link: 'https://t.me/Vigonin83',
+   },
+   {
+      id: '00004',
+      name: 'email',
+      icon: <FaRegEnvelope  fontSize="1.9rem" />,
+      link: 'mailto:vigonin83@gmail.com',
    },
 ];
 export default socialLink;

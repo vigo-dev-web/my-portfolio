@@ -47,7 +47,6 @@ const TechnologyPage = () => {
 							<SwiperSlide key={tech.id}>
 								<TechnologyCard
 									technology={tech}
-									// key={tech.id}
 								/>
 							</SwiperSlide>
 						</>

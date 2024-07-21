@@ -14,25 +14,34 @@ const MainPage = () => {
 					<p className={styles.greetings}>{myInfo.greetings}</p>
 					<h1 className={styles.title}>{myInfo.occupation}</h1>
 					<p className={styles.mainText}>
-						Разрабатываю сайты, приложения и интерфейсы для Вашего бизнеса. Имею опыт интеграции Frontend и Backend.
-						Использую современный технологический{' '}
+						● Я имею опыт работы в создании современных веб-приложений и пользовательских интерфейсов.
+					</p>
+					<p className={styles.mainText}>
+						● Осуществляю профессиональную разработку с использованием{' '}
+						<span>- React, Next.js, TypeScript.</span> Подробнее с моим стеком можно
+						ознакомиться{' '}
 						<NavLink
 							to='/technology'
 							className='text-lightblue hover:text-white transition delay-180 duration-300 ease-in'
 						>
 							{' '}
-							стек.
+							здесь.
 						</NavLink>{' '}
-						С моими проектами можно ознакомиться
+					</p>
+					<p className={styles.mainText}>
+						● В этом портфолио вы найдете ряд реализованных{' '}
 						<NavLink
 							to='/projects'
 							className='text-lightblue hover:text-white transition delay-180 duration-300 ease-in'
 						>
 							{' '}
-							здесь.
+							проектов,{' '}
 						</NavLink>
+						отражающих мои профессиональные навыки и компетенции.
 					</p>
-					<p className={styles.callAction}>Давайте начнем работать вместе!</p>
+					<p className={styles.callAction}>
+						Свяжитесь со мной - я всегда открыт для новых вызовов и взаимного сотрудничества!
+					</p>
 					<div className={styles.buttonBox}>
 						<MainButton content={createMessage} />
 					</div>
