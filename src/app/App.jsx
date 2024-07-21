@@ -8,7 +8,7 @@ function App() {
 	const isTabletOrMobile = useMediaQuery({ query: '(max-width: 767px)' })
 	return (
 		<>
-			{isTabletOrMobile ? <MobileNavBar /> : <NavBar />}
+			{/* {isTabletOrMobile ? <MobileNavBar /> : <NavBar />} */}
 			<Content />
 			<Footer />
 		</>
