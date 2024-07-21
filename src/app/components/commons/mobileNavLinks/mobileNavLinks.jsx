@@ -4,7 +4,6 @@ import styles from './mobileNavLinks.module.scss'
 import { MdClose } from 'react-icons/md'
 
 const MobileNavLinks = ({ onClick }) => {
-
 	const handleClose = () => {
 		setTimeout(() => {
 			document.body.classList.remove('close')
@@ -25,7 +24,7 @@ const MobileNavLinks = ({ onClick }) => {
 					key={item.id}
 					className={styles.link}
 					onClick={handleClose}
-					>
+				>
 					{item.title}
 				</NavLink>
 			))}
