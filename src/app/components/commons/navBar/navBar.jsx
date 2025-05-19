@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import styles from './navBar.module.scss'
 import nav from '../../../mock/nav'
@@ -26,7 +25,7 @@ const NavBar = () => {
 					))}
 				</div>
 				<ButtonLink
-					link={'/my-portfolio/assets/Igorin_Vasiliy_Frontend_CV.pdf'}
+					link={'/my-portfolio/assets/Igonin_Vasiliy_Frontend_CV.pdf'}
 				>
 					Посмотреть резюме
 				</ButtonLink>

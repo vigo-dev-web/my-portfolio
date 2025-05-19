@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from './mobileNavBar.module.scss'
 import { FaPhone } from 'react-icons/fa'
 import { HiMenuAlt3 } from 'react-icons/hi'
