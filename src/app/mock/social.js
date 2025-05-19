@@ -4,7 +4,7 @@ const socialLink = [
       id: '00001',
       name: 'github',
       icon: <FaGithub fontSize="1.7rem" />,
-      link: 'https://github.com/vigonin83',
+      link: 'https://github.com/vigo-dev-web',
    },
    // {
    //    id: '00003',
@@ -22,7 +22,7 @@ const socialLink = [
       id: '00003',
       name: 'telegram',
       icon: <FaTelegramPlane fontSize="1.9rem" />,
-      link: 'https://t.me/Vigonin83',
+      link: 'https://t.me/@Vig00o',
    },
    {
       id: '00004',
