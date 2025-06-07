@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './projectCard.module.scss'
 import ButtonLink from '../../ui/buttonLink/buttonLink'
 

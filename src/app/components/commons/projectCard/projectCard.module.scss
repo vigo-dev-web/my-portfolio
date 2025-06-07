@@ -11,6 +11,7 @@
    font-weight: 700;
    line-height: 1.05;
    color: rgb(26, 21, 40);
+   overflow: hidden;
 
    @media (max-width: 914px) {
       font-size: 0.78rem;
@@ -30,6 +31,7 @@
    width: 40%;
    height: 100%;
    object-fit: fill;
+   border-radius: 3px;
 
    @media (max-width: 914px) {
       width: 47%;
@@ -95,4 +97,7 @@
    display: flex;
    justify-content: space-around;
    gap: 0 1rem;
+   @media (max-width: 475px) {
+      gap: 0 0.5rem;      
+   }
 }

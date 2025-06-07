@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from './projectPage.module.scss'
 import ProjectCard from '../../commons/projectCard/projectCard'
 import projects from '../../../mock/projects'
