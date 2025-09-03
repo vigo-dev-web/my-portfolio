@@ -24,11 +24,7 @@ const NavBar = () => {
 						</NavLink>
 					))}
 				</div>
-				<ButtonLink
-					link={'/assets/Igonin_Vasiliy_Frontend_CV.pdf'}
-				>
-					Посмотреть резюме
-				</ButtonLink>
+				<ButtonLink link={'/my-portfolio/assets/Igonin_Vasiliy_Frontend_CV.pdf'}></ButtonLink>
 			</div>
 		</nav>
 	)
