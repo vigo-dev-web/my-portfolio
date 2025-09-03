@@ -42,7 +42,7 @@ const projects = [
       alt: "проект лендинг фотографа",
       technology: ['Next.JS /', 'TypeScript /', 'SСSS /', 'Swiper Slider /', 'Yandex map'],
       gitHubLink: "https://github.com/vigo-dev-web/photogrpher",
-      projectLink: "https://petrov-maksim-photo.ru",
+      projectLink: "http://lawyer.j98593uv.beget.tech/",
    },
    {  id: "000006",
       title: "Интерфейс интернет-магазина самокатов.",

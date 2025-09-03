@@ -6,7 +6,7 @@ const Logo = () => {
 		<Link to={'/'}>
 			<img
 				className='h-10 w-auto'
-				src='/my-portfolio/assets/word-logo-original.png'
+				src='/assets/word-logo-original.png'
 				alt='Portfolio logo'
 			/>
 		</Link>

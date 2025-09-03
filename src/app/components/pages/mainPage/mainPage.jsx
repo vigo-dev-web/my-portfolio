@@ -47,7 +47,7 @@ const MainPage = () => {
 					</div>
 				</div>
 				<img
-					src='/my-portfolio/assets/main-foto.jpg'
+					src='/assets/main-foto.jpg'
 					alt='Main-foto'
 					className={styles.image}
 				/>

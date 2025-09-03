@@ -11,6 +11,24 @@
     overflow: hidden;
   }
 
+  .body {
+   flex: 1 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.container {
+   max-width: 1220px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 2rem 1rem;
+
+   @media (max-width: 625px) {
+      padding: 0.8rem 0.8rem;
+   }
+}
+
   h1 {
     font-weight: 700;
     line-height: 1.3;
