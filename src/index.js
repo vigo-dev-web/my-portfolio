@@ -6,7 +6,7 @@ import './index.scss'
 const root = document.getElementById('root')
 
 ReactDOM.createRoot(root).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/my-portfolio">
       <Routes>
         <Route
           path='/*'
